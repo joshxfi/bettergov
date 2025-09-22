@@ -160,7 +160,6 @@
   animation: marquee 30s linear infinite;
 }
 
-/* === Custom animations (v4 style) === */
 @keyframes fadeIn {
   0% {
     opacity: 0;
