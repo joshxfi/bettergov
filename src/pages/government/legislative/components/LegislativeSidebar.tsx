@@ -23,12 +23,14 @@ export default function LegislativeSidebar() {
               <Link
                 to='/government/legislative/senate-of-the-philippines-20th-congress'
                 className={`flex items-center px-3 py-2 text-sm rounded-md transition-colors ${
-                  isActive('/government/legislative/senate-of-the-philippines-20th-congress')
+                  isActive(
+                    '/government/legislative/senate-of-the-philippines-20th-congress'
+                  )
                     ? 'bg-primary-50 text-primary-700 font-medium'
                     : 'text-gray-700 hover:bg-gray-50'
                 }`}
               >
-                <Building className='h-4 w-4 mr-2 text-gray-400 flex-shrink-0' />
+                <Building className='h-4 w-4 mr-2 text-gray-400 shrink-0' />
                 <span>Senate of the Philippines (20th Congress)</span>
               </Link>
             </li>
@@ -41,7 +43,7 @@ export default function LegislativeSidebar() {
                     : 'text-gray-700 hover:bg-gray-50'
                 }`}
               >
-                <BookOpen className='h-4 w-4 mr-2 text-gray-400 flex-shrink-0' />
+                <BookOpen className='h-4 w-4 mr-2 text-gray-400 shrink-0' />
                 <span>Committees</span>
               </Link>
             </li>
@@ -58,12 +60,14 @@ export default function LegislativeSidebar() {
               <Link
                 to='/government/legislative/house-of-representatives-20th-congress'
                 className={`flex items-center px-3 py-2 text-sm rounded-md transition-colors ${
-                  isActive('/government/legislative/house-of-representatives-20th-congress')
+                  isActive(
+                    '/government/legislative/house-of-representatives-20th-congress'
+                  )
                     ? 'bg-primary-50 text-primary-700 font-medium'
                     : 'text-gray-700 hover:bg-gray-50'
                 }`}
               >
-                <LandPlot className='h-4 w-4 mr-2 text-gray-400 flex-shrink-0' />
+                <LandPlot className='h-4 w-4 mr-2 text-gray-400 shrink-0' />
                 <span>House of Representatives (20th Congress)</span>
               </Link>
             </li>
@@ -76,7 +80,7 @@ export default function LegislativeSidebar() {
                     : 'text-gray-700 hover:bg-gray-50'
                 }`}
               >
-                <Users className='h-4 w-4 mr-2 text-gray-400 flex-shrink-0' />
+                <Users className='h-4 w-4 mr-2 text-gray-400 shrink-0' />
                 <span>Members by City/Province</span>
               </Link>
             </li>
@@ -89,7 +93,7 @@ export default function LegislativeSidebar() {
                     : 'text-gray-700 hover:bg-gray-50'
                 }`}
               >
-                <Users className='h-4 w-4 mr-2 text-gray-400 flex-shrink-0' />
+                <Users className='h-4 w-4 mr-2 text-gray-400 shrink-0' />
                 <span>Members by Party List</span>
               </Link>
             </li>

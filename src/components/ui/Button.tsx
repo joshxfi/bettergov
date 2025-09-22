@@ -3,7 +3,7 @@ import { cn } from '../../lib/utils';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
-  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'link';
+  variant?: 'primary' | 'secondary' | 'outline-solid' | 'ghost' | 'link';
   size?: 'sm' | 'md' | 'lg';
   fullWidth?: boolean;
   isLoading?: boolean;
@@ -46,12 +46,12 @@ const Button = ({
     <button
       className={cn(
         'inline-flex items-center justify-center rounded-md font-medium transition-colors',
-        'focus:outline-none focus:ring-2 focus:ring-offset-2',
+        'focus:outline-hidden focus:ring-2 focus:ring-offset-2',
         variants[variant],
         sizes[size],
         fullWidth ? 'w-full' : '',
         isDisabled ? 'opacity-60 cursor-not-allowed' : '',
-        variant !== 'link' && 'shadow-sm',
+        variant !== 'link' && 'shadow-xs',
         className
       )}
       disabled={isDisabled}

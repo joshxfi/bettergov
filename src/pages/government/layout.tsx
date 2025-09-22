@@ -110,7 +110,7 @@ export default function GovernmentLayout({ children }: GovernmentLayoutProps) {
                 key={branch.path}
                 to={branch.path}
                 className={clsx(
-                  'group flex flex-col p-3 md:p-4 transition-all rounded-md shadow-sm',
+                  'group flex flex-col p-3 md:p-4 transition-all rounded-md shadow-xs',
                   isActive
                     ? [branch.color, 'text-white']
                     : [
