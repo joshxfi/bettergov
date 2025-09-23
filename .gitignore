@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Storybook
+storybook_static
+
 # Playwright
 /test-results/
 /playwright-report/
