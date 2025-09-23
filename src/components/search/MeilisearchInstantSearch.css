@@ -97,3 +97,14 @@
   font-size: 0.875rem;
   color: #4b5563; /* text-gray-800 */
 }
+
+input.ais-SearchBox-input:not(:focus)::placeholder {
+  position: relative;
+  left: 20px;
+  color: #9ca3af; /* text-gray-400 */
+}
+
+/* #root > div > div.container.mx-auto.px-4.py-8 > div > div.lg\:col-span-3 > div.mb-6 > div > form::before */
+form.ais-SearchBox-form:focus-within::before {
+  display: none;
+}
