@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Lightbulb, Users, Star, TrendingUp, Plus } from 'lucide-react';
 import { SiGithub } from '@icons-pack/react-simple-icons';
-import { Card, CardContent } from '@kapwa-design-system/components/card';
+import { Card, CardContent } from '@kapwa/ui/components/card';
 
 interface ProjectIdea {
   id: string;

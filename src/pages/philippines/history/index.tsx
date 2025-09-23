@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Clock, Flag, Crown, Scale } from 'lucide-react';
-import { Card, CardContent } from '@kapwa-design-system/components/card';
+import { Card, CardContent } from '@kapwa/ui/components/card';
 
 const PhilippinesHistory: React.FC = () => {
   const { t } = useTranslation('about-philippines');

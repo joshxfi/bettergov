@@ -1,6 +1,6 @@
 import React from 'react';
 import { Music2, Utensils, Heart, Users, Palette } from 'lucide-react';
-import { Card, CardContent } from '@kapwa-design-system/components/card';
+import { Card, CardContent } from '@kapwa/ui/components/card';
 
 const PhilippinesCulture: React.FC = () => {
   const culturalAspects = [

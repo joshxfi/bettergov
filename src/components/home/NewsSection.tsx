@@ -1,10 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import {
-  Card,
-  CardImage,
-  CardContent,
-} from '@kapwa-design-system/components/card';
+import { Card, CardImage, CardContent } from '@kapwa/ui/components/card';
 import { useTranslation } from 'react-i18next';
 import { news } from '../../data/news';
 import { formatDate, truncateText } from '../../lib/utils';

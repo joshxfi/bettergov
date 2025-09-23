@@ -4,7 +4,7 @@ import {
   CardHeader,
   CardContent,
   CardImage,
-} from '@kapwa-design-system/components/card';
+} from '@kapwa/ui/components/card';
 import Button from '../components/ui/Button';
 import {
   Phone,

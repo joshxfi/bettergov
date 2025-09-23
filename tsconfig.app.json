@@ -22,7 +22,7 @@
 
     /* Aliases */
     "paths": {
-      "@kapwa-design-system/*": ["./src/components/kapwa-design-system/*"]
+      "@kapwa/ui/*": ["./src/components/kapwa/ui/*"]
     }
   },
   "include": ["src"]

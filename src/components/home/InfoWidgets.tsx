@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import * as LucideIcons from 'lucide-react';
-import {
-  Card,
-  CardHeader,
-  CardContent,
-} from '@kapwa-design-system/components/card';
+import { Card, CardHeader, CardContent } from '@kapwa/ui/components/card';
 import { WeatherData, ForexRate } from '../../types';
 import { useTranslation } from 'react-i18next';
 import CriticalHotlinesWidget from '../widgets/CriticalHotlinesWidget';

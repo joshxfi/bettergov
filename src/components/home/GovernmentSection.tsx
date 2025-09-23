@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent } from '@kapwa-design-system/components/card';
+import { Card, CardContent } from '@kapwa/ui/components/card';
 import { useTranslation } from 'react-i18next';
 
 const GovernmentSection: React.FC = () => {

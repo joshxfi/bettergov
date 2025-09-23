@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   resolve: {
     alias: {
-      '@kapwa-design-system': '/src/components/kapwa-design-system',
+      '@kapwa/ui': '/src/components/kapwa/ui',
     },
   },
   plugins: [react(), tailwindcss()],

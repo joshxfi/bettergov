@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { MapPin, Mountain, Building2, Users, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Card, CardContent } from '@kapwa-design-system/components/card';
+import { Card, CardContent } from '@kapwa/ui/components/card';
 import regionsData from '../../../data/regions.json';
 import SEO from '../../../components/SEO';
 import { getLocalGovSEOData } from '../../../utils/seo-data';
