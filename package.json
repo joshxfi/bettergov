@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && npm run storybook:build",
     "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write .",
     "test:e2e": "playwright test",
@@ -29,7 +29,7 @@
     "process:unique-contractors": "node ./scripts/process_contractors.cjs",
     "fetch:contractor-profiles": "node ./scripts/fetch_contractor_profiles.cjs",
     "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build"
+    "storybook:build": "storybook build -o ./dist/storybook"
   },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^13.7.0",
