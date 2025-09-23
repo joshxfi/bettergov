@@ -1,5 +1,9 @@
 import React from 'react';
-import { Card, CardContent, CardHeader } from '../../../components/ui/Card';
+import {
+  Card,
+  CardContent,
+  CardHeader,
+} from '@kapwa-design-system/components/card';
 import { Calendar as CalendarIcon } from 'lucide-react';
 
 interface Holiday {

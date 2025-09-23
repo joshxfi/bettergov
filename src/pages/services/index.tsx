@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Search, CheckCircle2, Menu, X } from 'lucide-react';
 import * as ScrollArea from '@radix-ui/react-scroll-area';
-import { Card, CardContent } from '../../components/ui/Card';
+import { Card, CardContent } from '@kapwa-design-system/components/card';
 import SearchInput from '../../components/ui/SearchInput';
 import serviceCategories from '../../data/service_categories.json';
 

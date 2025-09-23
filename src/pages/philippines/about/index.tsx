@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Globe2, Users, Building2, Mountain, Sun } from 'lucide-react';
-import { Card, CardContent } from '../../../components/ui/Card';
+import { Card, CardContent } from '@kapwa-design-system/components/card';
 
 const AboutPhilippines: React.FC = () => {
   const { t } = useTranslation('about-philippines');

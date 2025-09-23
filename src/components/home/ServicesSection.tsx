@@ -1,6 +1,6 @@
 import React from 'react';
 import * as LucideIcons from 'lucide-react';
-import { Card, CardContent } from '../ui/Card';
+import { Card, CardContent } from '@kapwa-design-system/components/card';
 import serviceCategories from '../../data/service_categories.json';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
