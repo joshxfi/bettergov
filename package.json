@@ -98,6 +98,7 @@
     "uuid": "^9.0.1",
     "vite": "^5.4.2"
   },
+  "packageManager": "pnpm@10.17.1",
   "overrides": {
     "react-helmet-async": {
       "react": "^19.0.0",
